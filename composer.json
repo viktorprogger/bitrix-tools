@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "name": "arrilot/bitrix-migrations",
+            "type": "vcs",
+            "url": "https://github.com/viktorprogger/bitrix-migrations"
+        }
+    ],
+    "require": {
+        "php": "~5.6",
+        "arrilot/bitrix-migrations": "dev-master",
+        "arrilot/bitrix-cacher": "^3.0",
+        "monolog/monolog": "^1.25"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "adapt\\tools\\": "lib"
+        }
+    }
+}
